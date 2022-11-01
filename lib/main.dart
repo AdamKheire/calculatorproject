@@ -10,7 +10,7 @@ class Calculator extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Calculator',
+      title: 'React Native Calculator App',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: SimpleCalculator(),
     );
@@ -111,7 +111,8 @@ class _SimpleCalculatorState extends State<SimpleCalculator> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Calculator App', ),
+      appBar: AppBar(title: Text('React Native Calculator App', ),
+        backgroundColor: Colors.blueGrey,
         centerTitle: true,
       ),
       body: Column(
